@@ -1,5 +1,5 @@
 
-  # Create Artist Portfolio Website
+  # Bitors Artist Portfolio Website
 
   This is a code bundle for Create Artist Portfolio Website.
 
