@@ -1,7 +1,7 @@
 
   # Create Artist Portfolio Website
 
-  This is a code bundle for Create Artist Portfolio Website. The original project is available at https://www.figma.com/design/RRlcYVZzQpaLk6ka9EF0dl/Create-Artist-Portfolio-Website.
+  This is a code bundle for Create Artist Portfolio Website.
 
   ## Running the code
 
