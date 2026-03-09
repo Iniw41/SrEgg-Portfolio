@@ -1,16 +1,16 @@
 import { motion } from 'motion/react';
-import { ExternalLink, Github, Calendar, Users } from 'lucide-react';
+import { ExternalLink, Github, Calendar, Code } from 'lucide-react';
 
 const featuredProject = {
-  title: 'Medical Appointment System',
-  description: 'A comprehensive web-based system for managing medical appointments, patient records, and healthcare provider schedules. Built with modern web technologies to streamline healthcare administration.',
-  technologies: ['Web Development', 'Database Management', 'User Authentication', 'Responsive Design'],
-  githubUrl: 'https://github.com/Iniw41/Medical-Apointment-System',
+  title: 'UnoDOS Calculator',
+  description: 'A sleek and functional calculator application built with modern web technologies. Features a clean user interface with support for basic arithmetic operations and advanced calculations.',
+  technologies: ['HTML', 'CSS', 'JavaScript', 'Responsive Design'],
+  githubUrl: 'https://github.com/SrEgggg/UnoDOS-Calculator',
   features: [
-    'Patient appointment scheduling',
-    'Healthcare provider management',
-    'Secure patient data handling',
-    'Real-time availability tracking'
+    'Basic arithmetic operations',
+    'Clean and intuitive interface',
+    'Keyboard support',
+    'Responsive design for all devices'
   ]
 };
 
@@ -43,12 +43,12 @@ export function Projects() {
                   <h3 className="text-3xl font-bold text-white mb-2">{featuredProject.title}</h3>
                   <div className="flex items-center gap-4 text-purple-100">
                     <div className="flex items-center gap-2">
-                      <Calendar className="w-4 h-4" />
-                      <span className="text-sm">Healthcare System</span>
+                      <Code className="w-4 h-4" />
+                      <span className="text-sm">Calculator App</span>
                     </div>
                     <div className="flex items-center gap-2">
-                      <Users className="w-4 h-4" />
-                      <span className="text-sm">Collaborative Project</span>
+                      <Calendar className="w-4 h-4" />
+                      <span className="text-sm">Web Application</span>
                     </div>
                   </div>
                 </div>
